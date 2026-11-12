@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b12">
+  <title>j.web — Jan Scheidegger | Travel · Photography · Outdoor</title>
+  <meta name="description" content="Travel photos, places and moments collected by Jan Scheidegger.">
+  <meta property="og:title" content="j.web — Travel · Photography · Outdoor">
+  <meta property="og:description" content="A personal collection of travel photographs and places around the world.">
+  <meta property="og:image" content="resources/travel-photos/matterhorn.jpg">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon package/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="./favicon package/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dark.css">
+  <script src="onepage.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Jan Scheidegger – Home"><img src="resources/jan-scheidegger-logo.png" alt="Jan Scheidegger"></a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#home" class="active">Home</a><a href="#photos">Photos</a><a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__image"></div><div class="hero__veil"></div>
+      <div class="hero__content">
+        <p class="eyebrow"><span></span> TRAVEL&nbsp; &amp; &nbsp;PHOTOGRAPHY</p>
+        <h1 id="hero-title">The World.<br>Worth exploring.</h1>
+        <p class="hero__intro">Travel photos, places and moments<br class="desktop-only"> collected along the way.</p>
+        <a class="button button--solid" href="#photos">Explore the photos <span>↓</span></a>
+      </div>
+      <div class="hero__index"><span>01</span><i></i> A PERSONAL TRAVEL JOURNAL</div>
+      <a class="scroll-cue" href="#photos" aria-label="Scroll to photos"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section photos-section" id="photos">
+      <div class="section-heading">
+        <div><p class="section-kicker">01 / THE PHOTO COLLECTION</p><h2>Places along the way<span>.</span></h2></div>
+        <p class="section-aside">A selection of places and views<br>from around the world.</p>
+      </div>
+      <div class="region-grid"><button class="region-card" type="button" data-region="Europe" aria-expanded="false">
+      <img src="resources/travel-photos/matterhorn.jpg" alt="Matterhorn, Switzerland" loading="lazy">
+      <span class="region-card__shade"></span><span class="region-card__copy"><small>EXPLORE</small><strong>Europe</strong><em>Mountains, cities &amp; culture</em></span>
+      <span class="region-card__arrow" aria-hidden="true">↗</span>
+    </button>
+<button class="region-card" type="button" data-region="Asia" aria-expanded="false">
+      <img src="resources/travel-photos/brokenbay.jpg" alt="Broken Bay, Indonesia" loading="lazy">
+      <span class="region-card__shade"></span><span class="region-card__copy"><small>EXPLORE</small><strong>Asia</strong><em>Temples, cities &amp; coastlines</em></span>
+      <span class="region-card__arrow" aria-hidden="true">↗</span>
+    </button>
+<button class="region-card" type="button" data-region="North America" aria-expanded="false">
+      <img src="resources/travel-photos/yosemite.jpg" alt="Yosemite, USA" loading="lazy">
+      <span class="region-card__shade"></span><span class="region-card__copy"><small>EXPLORE</small><strong>North America</strong><em>National parks &amp; city life</em></span>
+      <span class="region-card__arrow" aria-hidden="true">↗</span>
+    </button>
+<button class="region-card" type="button" data-region="Africa" aria-expanded="false">
+      <img src="resources/travel-photos/cairo.jpg" alt="Giza, Egypt" loading="lazy">
+      <span class="region-card__shade"></span><span class="region-card__copy"><small>EXPLORE</small><strong>Africa</strong><em>Ancient places &amp; landscapes</em></span>
+      <span class="region-card__arrow" aria-hidden="true">↗</span>
+    </button></div>
+      <div class="explorer" id="explorer" hidden>
+        <div class="explorer__heading"><div><p class="section-kicker">EXPLORE BY COUNTRY</p><h3 id="explorer-title">Choose a country</h3></div><button class="text-button" id="close-explorer" type="button">Close ×</button></div>
+        <div class="country-list" id="country-list" aria-label="Countries"></div>
+        <p class="gallery-hint" id="gallery-hint">Select a country to see its photographs.</p>
+        <div class="photo-grid" id="photo-grid"><article class="photo-card" data-region="Asia" data-country="Vietnam">
+      <button class="photo-open" type="button" aria-label="Open photo: Hanoi, Vietnam">
+        <img src="resources/travel-photos/hanoi.jpg" alt="Rooftop-Aussicht auf Hanoi, Vietnam" loading="lazy">
+        <span class="photo-card__zoom" aria-hidden="true">↗</span>
+      </button>
+      <div class="photo-card__text"><h3>Hanoi, Vietnam</h3><p>You can guess it from this rooftop view. Hanoi is a rather chaotic place, but definitely worth a visit.</p></div>
+    </article>
+<article class="photo-card" data-region="Asia" data-country="Japan">
+      <button class="photo-open" type="button" aria-label="Open photo: Shirakawa-go, Japan">
+        <img src="resources/travel-photos/shirakawa-go.jpg" alt="Bauernhaus in Shirakawa-go, Japan" loading="lazy">
+        <span class="photo-card__zoom" aria-hidden="true">↗</span>
+      </button>
+      <div class="photo-card__text"><h3>Shirakawa-go, Japan</h3><p>Visited this picturesque village during a tour of Japan. Shirakawa-go was declared a UNESCO World Heritage Site.</p></div>
+    </article>
+<article class="photo-card" data-region="Asia" data-country="Indonesia">
+      <button class="photo-open" type="button" aria-label="Open photo: Broken Bay, Nusa Penida, Indonesia">
+        <img src="resources/travel-photos/brokenbay.jpg" alt="Drohnen-Aufnahme der Broken Bay auf Nusa Penida, Indonesien" loading="lazy">
+        <span class="photo-card__zoom" aria-hidden="true">↗</span>
+      </button>
+      <div class="photo-card__text"><h3>Broken Bay, Nusa Penida, Indonesia</h3><p>The Broken Bay on Nusa Penida from a bird&#x27;s eye view. Besides Kelingking beach, this is a must-see on this island close to Bali.</p></div>
+    </article>
+<article class="photo-card" data-region="Asia" data-country="Indonesia">
+      <button class="photo-open" type="button" aria-label="Open photo: Tanah Lot, Bali, Indonesia">
+        <img src="resources/travel-photos/tanahlot.jpg" alt="Tempel von Tanah Lot in Bali, Indonesien" loading="lazy">
+        <span class="photo-card__zoom" aria-hidden="true">↗</span>
+      </button>
+      <div class="photo-card__text"><h3>Tanah Lot, Bali, Indonesia</h3><p>No filter needed! Stunningly beautiful and surrounded by water during high tide. The temple of Tanah Lot in Bali.</p></div>
+    </article>
+<article class="photo-card" data-region="Europe" data-country="Germany">
+      <button class="photo-open" type="button" aria-label="Open photo: Römer, Frankfurt, Germany">
+        <img src="resources/travel-photos/roemer.jpg" alt="Römer in Frankfurt, Deutschland" loading="lazy">
+        <span class="photo-card__zoom" aria-hidden="true">↗</span>
+      </button>
+      <div class="photo-card__text"><h3>Römer, Frankfurt, Germany</h3><p>Der Römer is Frankfurt&#x27;s town hall and, of course, one of its main attractions.</p></div>
+    </article>
+<article class="photo-card" data-region="North America" data-country="USA">
+      <button class="photo-open" type="button" aria-label="Open photo: Dallas, USA">
+        <img src="resources/travel-photos/dallas.jpg" alt="Dallas-Skyline, USA" loading="lazy">
+        <span class="photo-card__zoom" aria-hidden="true">↗</span>
+      </button>
+      <div class="photo-card__text"><h3>Dallas, USA</h3><p>Travel tip for Dallas: Enjoy the great view of the skyline from Reunion Tower.</p></div>
+    </article>
+<article class="photo-card" data-region="Europe" data-country="Switzerland">
+      <button class="photo-open" type="button" aria-label="Open photo: Matterhorn, Zermatt, Switzerland">
+        <img src="resources/travel-photos/matterhorn.jpg" alt="Matterhorn in Zermatt, Schweiz" loading="lazy">
+        <span class="photo-card__zoom" aria-hidden="true">↗</span>
+      </button>
+      <div class="photo-card__text"><h3>Matterhorn, Zermatt, Switzerland</h3><p>It took me 30 years before I finally got a view of this iconic mountain. This picture was taken on a hike from Zermatt to Gornergrat.</p></div>
+    </article>
+<article class="photo-card" data-region="Asia" data-country="Thailand">
+      <button class="photo-open" type="button" aria-label="Open photo: Bangkok, Thailand">
+        <img src="resources/travel-photos/bangkok.jpg" alt="Rooftop-Aussicht auf Bangkok bei Nacht, Thailand" loading="lazy">
+        <span class="photo-card__zoom" aria-hidden="true">↗</span>
+      </button>
+      <div class="photo-card__text"><h3>Bangkok, Thailand</h3><p>Bangkok by night. Nuff said.</p></div>
+    </article>
+<article class="photo-card" data-region="Europe" data-country="France">
+      <button class="photo-open" type="button" aria-label="Open photo: Arc de Triomphe, Paris, France">
+        <img src="resources/travel-photos/paris.jpg" alt="Arc de Triomphe de l’Étoile in Paris, Frankreich" loading="lazy">
+        <span class="photo-card__zoom" aria-hidden="true">↗</span>
+      </button>
+      <div class="photo-card__text"><h3>Arc de Triomphe, Paris, France</h3><p>Paris&#x27; famous triumphal arch even has an observation deck. Unfortunately, I didn&#x27;t realise that at the time of my visit.</p></div>
+    </article>
+<article class="photo-card" data-region="Europe" data-country="Russia">
+      <button class="photo-open" type="button" aria-label="Open photo: St. Petersburg, Russia">
+        <img src="resources/travel-photos/saintpetersburg.jpg" alt="Auferstehungskirche in Sankt Petersburg, Russland" loading="lazy">
+        <span class="photo-card__zoom" aria-hidden="true">↗</span>
+      </button>
+      <div class="photo-card__text"><h3>St. Petersburg, Russia</h3><p>A Russian Orthodox church with its characteristic onion domes. Welcome to St. Petersburg!</p></div>
+    </article>
+<article class="photo-card" data-region="Europe" data-country="Hungary">
+      <button class="photo-open" type="button" aria-label="Open photo: Chain Bridge, Budapest, Hungary">
+        <img src="resources/travel-photos/budapest.jpg" alt="Kettenbrücke in Budapest, Ungarn" loading="lazy">
+        <span class="photo-card__zoom" aria-hidden="true">↗</span>
+      </button>
+      <div class="photo-card__text"><h3>Chain Bridge, Budapest, Hungary</h3><p>The Chain Bridge connects the two parts of the city, Buda and Pest, making it clear where this photo was taken.</p></div>
+    </article>
+<article class="photo-card" data-region="Europe" data-country="Finland">
+      <button class="photo-open" type="button" aria-label="Open photo: Helsinki, Finland">
+        <img src="resources/travel-photos/helsinki.jpg" alt="Moderne Architektur in Helsinki, Finnland" loading="lazy">
+        <span class="photo-card__zoom" aria-hidden="true">↗</span>
+      </button>
+      <div class="photo-card__text"><h3>Helsinki, Finland</h3><p>What a fantastic design. A block of flats in the downtown area of Helsinki.</p></div>
+    </article>
+<article class="photo-card" data-region="North America" data-country="USA">
+      <button class="photo-open" type="button" aria-label="Open photo: Golden Gate Bridge, San Francisco, USA">
+        <img src="resources/travel-photos/sanfrancisco.jpg" alt="Golden Gate Bridge in San Francisco, USA" loading="lazy">
+        <span class="photo-card__zoom" aria-hidden="true">↗</span>
+      </button>
+      <div class="photo-card__text"><h3>Golden Gate Bridge, San Francisco, USA</h3><p>The renowned Golden Gate Bridge is still among the world&#x27;s longest suspension bridges – and the second longest in the US.</p></div>
+    </article>
+<article class="photo-card" data-region="North America" data-country="USA">
+      <button class="photo-open" type="button" aria-label="Open photo: Yosemite Valley, California, USA">
+        <img src="resources/travel-photos/yosemite.jpg" alt="Blick ins Yosemite Valley, USA" loading="lazy">
+        <span class="photo-card__zoom" aria-hidden="true">↗</span>
+      </button>
+      <div class="photo-card__text"><h3>Yosemite Valley, California, USA</h3><p>Yosemite National Park in California. Not only familiar to Apple users.</p></div>
+    </article>
+<article class="photo-card" data-region="North America" data-country="USA">
+      <button class="photo-open" type="button" aria-label="Open photo: Cloud Gate, Chicago, USA">
+        <img src="resources/travel-photos/chicago.jpg" alt="Cloud Gate in Chicago, USA" loading="lazy">
+        <span class="photo-card__zoom" aria-hidden="true">↗</span>
+      </button>
+      <div class="photo-card__text"><h3>Cloud Gate, Chicago, USA</h3><p>This sight can be found in Millennium Park in Chicago: the Cloud Gate, aka «The Bean».</p></div>
+    </article>
+<article class="photo-card" data-region="Africa" data-country="Egypt">
+      <button class="photo-open" type="button" aria-label="Open photo: The Great Sphinx of Giza, Egypt">
+        <img src="resources/travel-photos/cairo.jpg" alt="Die Grosse Sphinx von Gizeh, Ägypten" loading="lazy">
+        <span class="photo-card__zoom" aria-hidden="true">↗</span>
+      </button>
+      <div class="photo-card__text"><h3>The Great Sphinx of Giza, Egypt</h3><p>The Great Sphinx of Giza and the pyramid of Chephren in its background.</p></div>
+    </article></div>
+      </div>
+      <div class="visited">
+        <details>
+          <summary><span>36 countries visited</span><span class="summary-note">View the list <b>＋</b></span></summary>
+          <div class="country-tags"><span class="country-tag">Austria</span>
+<span class="country-tag">Belgium</span>
+<span class="country-tag">Bulgaria</span>
+<span class="country-tag">Canada</span>
+<span class="country-tag">Croatia</span>
+<span class="country-tag">Czech Republic</span>
+<span class="country-tag">Egypt</span>
+<span class="country-tag">England</span>
+<span class="country-tag">Estonia</span>
+<span class="country-tag">Finland</span>
+<span class="country-tag">France</span>
+<span class="country-tag">Germany</span>
+<span class="country-tag">Greece</span>
+<span class="country-tag">Hungary</span>
+<span class="country-tag">Indonesia</span>
+<span class="country-tag">Italy</span>
+<span class="country-tag">Japan</span>
+<span class="country-tag">Latvia</span>
+<span class="country-tag">Lithuania</span>
+<span class="country-tag">Myanmar</span>
+<span class="country-tag">Poland</span>
+<span class="country-tag">Portugal</span>
+<span class="country-tag">Romania</span>
+<span class="country-tag">Russia</span>
+<span class="country-tag">San Marino</span>
+<span class="country-tag">Serbia</span>
+<span class="country-tag">Slovakia</span>
+<span class="country-tag">Slovenia</span>
+<span class="country-tag">Spain</span>
+<span class="country-tag">Thailand</span>
+<span class="country-tag">The Netherlands</span>
+<span class="country-tag">Tunisia</span>
+<span class="country-tag">Turkey</span>
+<span class="country-tag">USA</span>
+<span class="country-tag">Vietnam</span>
+<span class="country-tag">Ukraine</span></div>
+        </details>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-image" role="img" aria-label="Yosemite Valley landscape in California"></div>
+      <div class="about-content">
+        <p class="section-kicker">02 / BEHIND THE LENS</p>
+        <h2>Hi, I'm Jan<span>.</span></h2>
+        <p class="about-lead">A curious traveller with a camera.</p>
+        <p>This is my personal collection of travel photos, places and moments from trips around the world. From familiar landscapes close to home to cities and coastlines further away — a little reminder of the places worth discovering.</p>
+        <a class="instagram-button" href="https://www.instagram.com/jsch87/" target="_blank" rel="noopener" aria-label="Instagram profile"><svg class="instagram-button__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5.2"></rect>
+          <circle cx="12" cy="12" r="4.1"></circle>
+          <circle class="instagram-button__dot" cx="17.6" cy="6.7" r="1.15"></circle>
+        </svg><span>Instagram</span><span class="instagram-button__arrow" aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand brand--footer" href="#home" aria-label="Jan Scheidegger – Home"><img src="resources/jan-scheidegger-logo.png" alt="Jan Scheidegger"></a>
+    <p>TRAVEL&nbsp; &amp; &nbsp;PHOTOGRAPHY</p>
+    <small>© <span id="year"></span> Jan Scheidegger</small>
+    <button class="back-top" type="button" aria-label="Back to top">↑</button>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+    <button class="lightbox__close" type="button" aria-label="Close photo">×</button>
+    <button class="lightbox__prev" type="button" aria-label="Previous photo">‹</button>
+    <figure><img id="lightbox-image" src="" alt=""><figcaption id="lightbox-caption"></figcaption></figure>
+    <button class="lightbox__next" type="button" aria-label="Next photo">›</button>
+  </dialog>
+</body>
+</html>
