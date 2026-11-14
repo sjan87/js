@@ -80,7 +80,7 @@
     activeIndex = (index + activePhotos.length) % activePhotos.length;
     const card = activePhotos[activeIndex];
     const img = card.querySelector("img");
-    lightboxImage.src = img.src;
+    lightboxImage.src = img.dataset.full || img.src;
     lightboxImage.alt = img.alt;
     lightboxCaption.textContent = card.querySelector("h3").textContent;
   }
